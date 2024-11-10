@@ -1,6 +1,4 @@
-// This is a header component that also contains navigation sections.
-import { Link } from 'react-router-dom';
-import logo from '../assets/images/logo.png';
+import Link from 'next/link';
 
 const Header = () => {
   return (
@@ -13,12 +11,12 @@ const Header = () => {
               <div className='col-sm-12'>
                 <ul id='top-buttons'>
                   <li>
-                    <Link to='#'>
+                    <Link href='#'>
                       <i className='fa fa-sign-in'></i> Login
                     </Link>
                   </li>
                   <li>
-                    <Link to='#'>
+                    <Link href='#'>
                       <i className='fa fa-pencil-square-o'></i> Register
                     </Link>
                   </li>
@@ -30,16 +28,16 @@ const Header = () => {
                       </span>
                       <ul>
                         <li>
-                          <Link to='#'>Deutsch</Link>
+                          <Link href='#'>Deutsch</Link>
                         </li>
                         <li>
-                          <Link to='#'>Espa&ntilde;ol</Link>
+                          <Link href='#'>Espa&ntilde;ol</Link>
                         </li>
                         <li>
-                          <Link to='#'>Fran&ccedil;ais</Link>
+                          <Link href='#'>Fran&ccedil;ais</Link>
                         </li>
                         <li>
-                          <Link to='#'>Portugu&ecirc;s</Link>
+                          <Link href='#'>Portugu&ecirc;s</Link>
                         </li>
                       </ul>
                     </div>
@@ -65,8 +63,8 @@ const Header = () => {
           <div className='container'>
             <div className='row'>
               <div className='col-sm-12'>
-                <Link to='/sk-react-at2/' className='nav-logo'>
-                  <img src={logo} alt='One Ring Rentals' />
+                <Link href='/sk-react-at2/' className='nav-logo'>
+                  <img src='/assets/images/logo.png' alt='One Ring Rentals' />
                 </Link>
                 {/* <!-- BEGIN SEARCH --> */}
                 <div id='sb-search' className='sb-search'>
@@ -96,22 +94,22 @@ const Header = () => {
 
                   <ul className='nav navbar-nav is-active'>
                     <li>
-                      <Link to='/sk-react-at2/'>Find a Rental</Link>
+                      <Link href='/sk-react-at2/'>Find a Rental</Link>
                     </li>
                     <li>
-                      <Link to='#'>List your rental</Link>
+                      <Link href='#'>List your rental</Link>
                     </li>
                     <li>
-                      <Link to='#'>Travel Guides</Link>
+                      <Link href='#'>Travel Guides</Link>
                     </li>
                     <li>
-                      <Link to='/sk-react-at2/regions'>Regions</Link>
+                      <Link href='/sk-react-at2/regions'>Regions</Link>
                     </li>
                     <li>
-                      <Link to='/sk-react-at2/news'>News</Link>
+                      <Link href='/sk-react-at2/news'>News</Link>
                     </li>
                     <li>
-                      <Link to='/sk-react-at2/contact'>Contact</Link>
+                      <Link href='/sk-react-at2/contact'>Contact</Link>
                     </li>
                   </ul>
                 </nav>
