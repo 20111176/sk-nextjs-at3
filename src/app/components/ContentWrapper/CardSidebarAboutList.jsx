@@ -1,5 +1,5 @@
 import CardSidebarAbout from './CardSidebarAbout';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const aboutData = [
   {
@@ -36,7 +36,7 @@ const CardSidebarAboutList = () => {
           ))}
         </ul>
         <p className='center'>
-          <Link className='btn btn-fullcolor' to='#'>
+          <Link className='btn btn-fullcolor' href='#'>
             More deals
           </Link>
         </p>

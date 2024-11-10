@@ -1,5 +1,4 @@
-/* eslint-disable react/prop-types */
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 const CardProperty = ({
   title = 'No title',
   location = 'No location',
@@ -9,7 +8,7 @@ const CardProperty = ({
   return (
     <div className='item col-md-4'>
       <div className='image'>
-        <Link to='#'>
+        <Link href='#'>
           <h3>{title}</h3>
           <span className='location'>{location}</span>
         </Link>

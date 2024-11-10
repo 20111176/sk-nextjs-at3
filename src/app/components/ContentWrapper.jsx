@@ -1,5 +1,5 @@
-import MainContent from '../ContentWrapper/MainContent';
-import Sidebar from '../ContentWrapper/Sidebar';
+import MainContent from './ContentWrapper/MainContent';
+import Sidebar from './ContentWrapper/Sidebar';
 
 const ContentWrapper = () => {
   return (

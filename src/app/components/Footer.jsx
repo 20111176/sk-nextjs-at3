@@ -7,7 +7,7 @@ const Footer = (props) => {
         <div id='footer-top' className='container'>
           <div className='row'>
             <div className='block col-sm-3'>
-              <Link href='#'>
+              <Link href='/'>
                 <img src={props.logo} alt='One Ring Rentals' />
               </Link>
               <br />

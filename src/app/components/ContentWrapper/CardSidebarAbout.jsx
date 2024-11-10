@@ -1,5 +1,4 @@
-/* eslint-disable react/prop-types */
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 const CardSidebarAbout = ({
   img = 'http://placehold.it/100x100',
   date = 'Available Now',
@@ -9,7 +8,7 @@ const CardSidebarAbout = ({
   return (
     <li className='col-md-12'>
       <div className='image'>
-        <Link to='#'></Link>
+        <Link href='#'></Link>
         <img alt='' src={img} />
       </div>
 
@@ -21,7 +20,7 @@ const CardSidebarAbout = ({
       </ul>
 
       <h4>
-        <Link to='#'>{detail}</Link>
+        <Link href='#'>{detail}</Link>
         <p>{location}</p>
       </h4>
     </li>

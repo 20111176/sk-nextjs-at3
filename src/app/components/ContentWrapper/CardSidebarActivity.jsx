@@ -1,5 +1,4 @@
-/* eslint-disable react/prop-types */
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 const CardSidebarActivity = ({
   request = 'Not yet reviewed',
   title = 'No title',
@@ -8,13 +7,13 @@ const CardSidebarActivity = ({
 }) => {
   return (
     <li className='col-lg-12'>
-      <Link to='#'>
+      <Link href='#'>
         <img src='http://placehold.it/70x70' alt='' />
       </Link>
       <div className='info'>
         <h5>
           {request}
-          <Link to='#'>{title}</Link>
+          <Link href='#'>{title}</Link>
         </h5>
         <p>{comment}</p>
         <h6>{date}</h6>

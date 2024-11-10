@@ -1,5 +1,4 @@
-/* eslint-disable react/prop-types */
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 const CardArticle = ({
   img = 'http://placehold.it/766x515',
   author = 'Admin',
@@ -12,7 +11,7 @@ const CardArticle = ({
   return (
     <div className='item col-md-4'>
       <div className='image'>
-        <Link to='#'>
+        <Link href='#'>
           <span className='btn btn-default'>
             <i className='fa fa-file-o'></i> Read More
           </span>
@@ -38,7 +37,7 @@ const CardArticle = ({
           </li>
         </ul>
         <h3>
-          <Link to='#'>{title}</Link>
+          <Link href='#'>{title}</Link>
         </h3>
         <p>{body}</p>
       </div>

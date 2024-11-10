@@ -63,7 +63,7 @@ const Header = (props) => {
           <div className='container'>
             <div className='row'>
               <div className='col-sm-12'>
-                <Link href='/sk-react-at2/' className='nav-logo'>
+                <Link href='/' className='nav-logo'>
                   <img src={props.logo} alt='One Ring Rentals' />
                 </Link>
                 {/* <!-- BEGIN SEARCH --> */}
@@ -94,7 +94,7 @@ const Header = (props) => {
 
                   <ul className='nav navbar-nav is-active'>
                     <li>
-                      <Link href='/sk-react-at2/'>Find a Rental</Link>
+                      <Link href='/'>Find a Rental</Link>
                     </li>
                     <li>
                       <Link href='#'>List your rental</Link>
@@ -103,13 +103,13 @@ const Header = (props) => {
                       <Link href='#'>Travel Guides</Link>
                     </li>
                     <li>
-                      <Link href='/sk-react-at2/regions'>Regions</Link>
+                      <Link href='/regions'>Regions</Link>
                     </li>
                     <li>
-                      <Link href='/sk-react-at2/news'>News</Link>
+                      <Link href='/news'>News</Link>
                     </li>
                     <li>
-                      <Link href='/sk-react-at2/contact'>Contact</Link>
+                      <Link href='/contact'>Contact</Link>
                     </li>
                   </ul>
                 </nav>
