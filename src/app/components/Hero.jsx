@@ -1,6 +1,4 @@
-// This is the Hero section, which includes sliding sections.
-
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 const Hero = () => {
   return (
     <>
@@ -25,7 +23,7 @@ const Hero = () => {
               <div className='caption sfl slider-subtitle'>
                 Relaxation in the Bay of Belfalas
               </div>
-              <Link to='#' className='caption sfb btn btn-default btn-lg'>
+              <Link href='#' className='caption sfb btn btn-default btn-lg'>
                 Learn More
               </Link>
             </div>
@@ -43,7 +41,7 @@ const Hero = () => {
               <div className='caption sfl slider-subtitle'>
                 Lush gardens in Mordor
               </div>
-              <Link to='#' className='caption sfb btn btn-default btn-lg'>
+              <Link href='#' className='caption sfb btn btn-default btn-lg'>
                 Learn More
               </Link>
             </div>
@@ -55,7 +53,7 @@ const Hero = () => {
         {/* <!-- Controls --> */}
         <Link
           className='left carousel-control'
-          to='#carousel-example-generic'
+          href='#carousel-example-generic'
           role='button'
           data-slide='prev'>
           <span className='glyphicon glyphicon-chevron-left'></span>
@@ -63,7 +61,7 @@ const Hero = () => {
         </Link>
         <Link
           className='right carousel-control'
-          to='#carousel-example-generic'
+          href='#carousel-example-generic'
           role='button'
           data-slide='next'>
           <span className='glyphicon glyphicon-chevron-right'></span>

@@ -1,6 +1,5 @@
-// This is the main content and sidebar components that split other components.
-import MainContent from './ContentWrapper/MainContent';
-import Sidebar from './ContentWrapper/Sidebar';
+import MainContent from '../ContentWrapper/MainContent';
+import Sidebar from '../ContentWrapper/Sidebar';
 
 const ContentWrapper = () => {
   return (

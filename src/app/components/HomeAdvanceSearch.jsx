@@ -1,4 +1,3 @@
-// Advanced Search component for the Home Page.
 const HomeAdvanceSearch = () => {
   return (
     <>
