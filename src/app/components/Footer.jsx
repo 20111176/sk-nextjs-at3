@@ -1,7 +1,5 @@
-// This is the footer section, which will be used across all pages to be added at the end.
-import { Link } from 'react-router-dom';
-import logo from '../assets/images/logo.png';
-const Footer = () => {
+import Link from 'next/link';
+const Footer = (props) => {
   return (
     <>
       {/* <!-- BEGIN FOOTER --> */}
@@ -9,8 +7,8 @@ const Footer = () => {
         <div id='footer-top' className='container'>
           <div className='row'>
             <div className='block col-sm-3'>
-              <Link to='#'>
-                <img src={logo} alt='One Ring Rentals' />
+              <Link href='#'>
+                <img src={props.logo} alt='One Ring Rentals' />
               </Link>
               <br />
               <br />
@@ -26,13 +24,13 @@ const Footer = () => {
               <h3>Helpful Links</h3>
               <ul className='footer-links'>
                 <li>
-                  <Link to='#'>All rentals</Link>
+                  <Link href='#'>All rentals</Link>
                 </li>
                 <li>
-                  <Link to='#'>List your rental</Link>
+                  <Link href='#'>List your rental</Link>
                 </li>
                 <li>
-                  <Link to='#'>Read our FAQs</Link>
+                  <Link href='#'>Read our FAQs</Link>
                 </li>
               </ul>
             </div>
@@ -43,32 +41,32 @@ const Footer = () => {
                   <ul className='footer-listings'>
                     <li>
                       <div className='image'>
-                        <Link to='#'>
+                        <Link href='#'>
                           <img src='http://placehold.it/760x670' alt='' />
                         </Link>
                       </div>
                       <p>
-                        <Link to='#'>Rhovanion</Link>
+                        <Link href='#'>Rhovanion</Link>
                       </p>
                     </li>
                     <li>
                       <div className='image'>
-                        <Link to='#'>
+                        <Link href='#'>
                           <img src='http://placehold.it/760x670' alt='' />
                         </Link>
                       </div>
                       <p>
-                        <Link to='#'>Eriador</Link>
+                        <Link href='#'>Eriador</Link>
                       </p>
                     </li>
                     <li>
                       <div className='image'>
-                        <Link to='#'>
+                        <Link href='#'>
                           <img src='http://placehold.it/760x670' alt='' />
                         </Link>
                       </div>
                       <p>
-                        <Link to='#'>Bay of Belfalas</Link>
+                        <Link href='#'>Bay of Belfalas</Link>
                       </p>
                     </li>
                   </ul>
@@ -77,32 +75,32 @@ const Footer = () => {
                   <ul className='footer-listings'>
                     <li>
                       <div className='image'>
-                        <Link to='#'>
+                        <Link href='#'>
                           <img src='http://placehold.it/760x670' alt='' />
                         </Link>
                       </div>
                       <p>
-                        <Link to='#'>Mordor</Link>
+                        <Link href='#'>Mordor</Link>
                       </p>
                     </li>
                     <li>
                       <div className='image'>
-                        <Link to='#'>
+                        <Link href='#'>
                           <img src='http://placehold.it/760x670' alt='' />
                         </Link>
                       </div>
                       <p>
-                        <Link to='#'>Arnor</Link>
+                        <Link href='#'>Arnor</Link>
                       </p>
                     </li>
                     <li>
                       <div className='image'>
-                        <Link to='#'>
+                        <Link href='#'>
                           <img src='http://placehold.it/760x670' alt='' />
                         </Link>
                       </div>
                       <p>
-                        <Link to='#'>Forlindon</Link>
+                        <Link href='#'>Forlindon</Link>
                       </p>
                     </li>
                   </ul>
@@ -121,32 +119,32 @@ const Footer = () => {
                 {/* <!-- BEGIN SOCIAL NETWORKS --> */}
                 <ul className='social-networks'>
                   <li>
-                    <Link to='#'>
+                    <Link href='#'>
                       <i className='fa fa-facebook'></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to='#'>
+                    <Link href='#'>
                       <i className='fa fa-twitter'></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to='#'>
+                    <Link href='#'>
                       <i className='fa fa-google'></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to='#'>
+                    <Link href='#'>
                       <i className='fa fa-pinterest'></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to='#'>
+                    <Link href='#'>
                       <i className='fa fa-youtube'></i>
                     </Link>
                   </li>
                   <li>
-                    <Link to='#'>
+                    <Link href='#'>
                       <i className='fa fa-rss'></i>
                     </Link>
                   </li>

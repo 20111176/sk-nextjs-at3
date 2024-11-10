@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Header = () => {
+const Header = (props) => {
   return (
     <>
       {/* <!-- BEGIN HEADER --> */}
@@ -64,7 +64,7 @@ const Header = () => {
             <div className='row'>
               <div className='col-sm-12'>
                 <Link href='/sk-react-at2/' className='nav-logo'>
-                  <img src='/assets/images/logo.png' alt='One Ring Rentals' />
+                  <img src={props.logo} alt='One Ring Rentals' />
                 </Link>
                 {/* <!-- BEGIN SEARCH --> */}
                 <div id='sb-search' className='sb-search'>
