@@ -19,9 +19,6 @@ const HomeAdvanceSearch = () => {
                         className='form-control'
                         data-date-format='DD/MM/YYYY'
                       />
-                      <span className='input-group-addon'>
-                        <span className='glyphicon glyphicon-calendar'></span>
-                      </span>
                     </div>
                   </div>
 

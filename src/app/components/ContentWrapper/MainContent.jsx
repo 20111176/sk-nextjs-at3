@@ -2,7 +2,7 @@ import CardProperties from './CardProperties';
 import CardRegions from './CardRegions';
 import CardArticles from './CardArticles';
 import Link from 'next/link';
-import { articlesData } from '@/app/data/articles';
+import { articlesData } from '@/app/data/articlesData';
 
 const MainContent = () => {
   return (

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = (props) => {
   return (
@@ -64,7 +65,7 @@ const Header = (props) => {
             <div className='row'>
               <div className='col-sm-12'>
                 <Link href='/' className='nav-logo'>
-                  <img src={props.logo} alt='One Ring Rentals' />
+                  <Image src={props.logo} alt='One Ring Rentals' width={187} height={85} />
                 </Link>
                 {/* <!-- BEGIN SEARCH --> */}
                 <div id='sb-search' className='sb-search'>

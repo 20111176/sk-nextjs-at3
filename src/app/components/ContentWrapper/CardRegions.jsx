@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import CardRegion from './CardRegion';
-import { regionsData } from '@/app/data/regions';
+import { regionsData } from '@/app/data/regionsData';
 
 const CardRegions = (props) => {
   return (

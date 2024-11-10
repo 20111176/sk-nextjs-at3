@@ -1,5 +1,5 @@
 import CardSidebarActivity from './CardSidebarActivity';
-import { activitiesData } from '@/app/data/activities';
+import { activitiesData } from '@/app/data/activitiesData';
 
 const CardSidebarActivities = () => {
   return (

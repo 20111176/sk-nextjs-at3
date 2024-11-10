@@ -1,6 +1,6 @@
 import CardSidebarAbout from './CardSidebarAbout';
 import Link from 'next/link';
-import { aboutData } from '@/app/data/about';
+import { aboutData } from '@/app/data/aboutData';
 
 const CardSidebarAboutList = () => {
   return (

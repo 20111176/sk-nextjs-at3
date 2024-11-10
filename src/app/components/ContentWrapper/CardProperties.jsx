@@ -1,5 +1,5 @@
 import CardProperty from './CardProperty';
-import { propertiesData } from '@/app/data/properties';
+import { propertiesData } from '@/app/data/propertiesData';
 
 const CardProperties = () => {
   return (
