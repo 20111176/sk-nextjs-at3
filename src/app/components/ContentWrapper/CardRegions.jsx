@@ -1,44 +1,6 @@
 /* eslint-disable react/prop-types */
 import CardRegion from './CardRegion';
-
-const regionsData = [
-  {
-    region: 'Rhovanion',
-  },
-  {
-    region: 'Eriador',
-  },
-  {
-    region: 'Bay of Belfalas',
-  },
-  {
-    region: 'Mordor',
-  },
-  {
-    region: 'The Soutwest',
-  },
-  {
-    region: 'Arnor',
-  },
-  {
-    region: 'Sydney',
-  },
-  {
-    region: 'Melbourne',
-  },
-  {
-    region: 'Hobart',
-  },
-  {
-    region: 'Adelaide',
-  },
-  {
-    region: 'Brisbane',
-  },
-  {
-    region: 'Perth',
-  },
-];
+import { regionsData } from '@/app/data/regions';
 
 const CardRegions = (props) => {
   return (
