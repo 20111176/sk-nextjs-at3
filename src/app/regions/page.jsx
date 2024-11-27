@@ -1,4 +1,4 @@
-import CardRegions from '../components/ContentWrapper/CardRegions';
+import CardRegions from '@/app/components/ContentWrapper/CardRegions';
 
 export default function Home() {
   return (

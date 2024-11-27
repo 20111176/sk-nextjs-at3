@@ -1,7 +1,7 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
-import '../../public/assets/css/bootstrap.min.css';
-import '../../public/assets/css/style.css';
+import Header from '@/app/components/Header';
+import Footer from '@/app/components/Footer';
+import '/public/assets/css/bootstrap.min.css';
+import '/public/assets/css/style.css';
 let logoImage = '/assets/images/logo.png';
 
 export const metadata = {

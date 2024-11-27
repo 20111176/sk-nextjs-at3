@@ -1,5 +1,5 @@
-import CardArticles from '../components/ContentWrapper/CardArticles';
-import { newsData } from '../data/newsData';
+import CardArticles from '@/app/components/ContentWrapper/CardArticles';
+import { newsData } from '@/app/data/newsData';
 
 export default function Home() {
   return (
